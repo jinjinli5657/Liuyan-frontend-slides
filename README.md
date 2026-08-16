@@ -1,5 +1,8 @@
 # Liuyan Frontend Slides
 
+> **Bilingual docs / 中英双语文档:** a toggleable **中文 / English** interactive page is available at
+> **https://jinjinli5657.github.io/Liuyan-frontend-slides/** (default English).
+
 Create zero-dependency, animation-rich HTML presentations from scratch or by converting PowerPoint files.
 
 [//]: # (Badge line kept compact)
@@ -166,7 +169,9 @@ The skill follows a six-phase workflow:
 ```
 Liuyan-frontend-slides/
 ├── SKILL.md                      # Skill metadata and full generation rules
-├── README.md                     # This file
+├── README.md                     # English README
+├── index.html                    # Bilingual interactive doc (中文 / English toggle)
+├── build_index.py                # Re-generate the bilingual index.html
 ├── STYLE_PRESETS.md              # 12 safe, reusable visual presets
 ├── animation-patterns.md         # CSS/JS animation snippets and feeling guide
 ├── html-template.md              # HTML architecture, JS features, code standards
